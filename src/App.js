@@ -32,7 +32,7 @@ function App() {
         })
       );
     });
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleView = (id) => {
     const recipesClone = [...recipes];
