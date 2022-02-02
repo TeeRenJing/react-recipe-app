@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+React project that stores the data in Firebase Firestore v9 instead of the local storage on the browser.
+No CSS Added for this project. Just basic functionality in place.
+Basic React hooks used, useState and useEffect.
+More emphasis on the integration and storing of recipes in firestore and how changes in firestore will rerender the FE, and how we can add recipes to the firestore from the FE. (and the relevant code that helps us do that with firestore v9)
+
